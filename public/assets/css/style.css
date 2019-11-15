@@ -832,6 +832,79 @@ h5.cont-form {
 
 /* testimonials */
 
+/* //Projects */
+.project-trend-area {
+    background: rgb(250, 250, 250);
+    padding-bottom: 20px;
+  }
+  
+  .project-trend-area h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .project-trend-area p {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  #projectshead {
+      text-align: center;
+      padding-bottom: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 10px;
+  }
+
+.thumb {
+    position: relative;
+  }
+  
+  .thumb div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.849);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .thumb img {
+    display: block;
+    width: 100%;
+  }
+  
+  
+  .thumb div span {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .thumb div p {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-weight: 100;
+  }
+  
+  .thumb:hover div {
+    opacity: 1;
+    cursor: pointer;
+  }
+
 .testi-text p {
     color: #777;
     width: 80%;
