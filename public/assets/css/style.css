@@ -58,7 +58,7 @@ ul {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .classes .classes-img.classes-img-single {
@@ -80,12 +80,12 @@ ul {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 
 .desc h3 a{
-    color: #934590; 
+    color: #934590;
 }
 
 .desc h3 :hover{
@@ -94,18 +94,18 @@ ul {
 }
 
 .btn-learn p a :hover{
-    color:#934590; 
+    color:#934590;
 }
 
 .classes .classes-img .price span {
     display: table-cell;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 .classes-img-single {
     width: 100% !important;
-    height: 400px !important; 
-    
+    height: 400px !important;
+
 }
 
 .price {
@@ -121,7 +121,7 @@ ul {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .price span {
@@ -131,51 +131,51 @@ ul {
 
 .price small {
     font-size: 13px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .colorlib-classes {
     padding: 0 0 8em 0;
-    clear: both; 
+    clear: both;
 }
 
 .colorlib-heading {
-    margin-bottom: 3em; 
+    margin-bottom: 3em;
 }
 
 .colorlib-heading h2 {
-    color: black; 
+    color: black;
 }
 
 .colorlib-heading h5 {
     font-size: 18px;
-    color: black; 
+    color: black;
 }
 
 .colorlib-heading-2 {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
 }
 .colorlib-heading {
-    margin-bottom: 5em; 
+    margin-bottom: 5em;
 }
-    
+
 .colorlib-heading h2 {
     font-size: 34px;
-    font-weight: 300; 
+    font-weight: 300;
 }
-    
+
 @media screen and (max-width: 768px) {
     .colorlib-heading h2 {
         font-size: 30px;
-    } 
-        
+    }
+
 }
 
 /* Alumni main body ends here */
-        
+
 
 button,
 html [type="button"],
@@ -1010,7 +1010,7 @@ h5.cont-form {
     background: rgb(250, 250, 250);
     padding-bottom: 20px;
   }
-  
+
   .project-trend-area h1 {
     text-align: center;
     text-transform: capitalize;
@@ -1018,7 +1018,7 @@ h5.cont-form {
     font-weight: 500;
     font-size: 20px;
   }
-  
+
   .project-trend-area p {
     text-align: center;
     margin-bottom: 80px;
@@ -1034,7 +1034,7 @@ h5.cont-form {
 .thumb {
     position: relative;
   }
-  
+
   .thumb div {
     position: absolute;
     width: 100%;
@@ -1046,13 +1046,12 @@ h5.cont-form {
     opacity: 0;
     transition: opacity 0.5s;
   }
-  
+
   .thumb img {
     display: block;
     width: 100%;
   }
-  
-  
+
   .thumb div span {
     display: block;
     position: absolute;
@@ -1062,9 +1061,9 @@ h5.cont-form {
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 3px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Noto Sans', sans-serif;
   }
-  
+
   .thumb div p {
     display: block;
     position: absolute;
@@ -1072,7 +1071,7 @@ h5.cont-form {
     left: 20px;
     font-weight: 100;
   }
-  
+
   .thumb:hover div {
     opacity: 1;
     cursor: pointer;
