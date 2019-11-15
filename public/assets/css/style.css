@@ -305,7 +305,7 @@ span.sub-title {
 
 .about-image {
   float: left;
-  padding: 0 5px 7px 0;
+  padding: 0 10px 5px 0;
 }
 .single_grid_text {
     padding: 6vw 0;
@@ -330,6 +330,11 @@ span.sub-title {
 
 .single_grid_w33 {
   background: url(../images/communities/decad.png) no-repeat center;
+  background-size: cover;
+}
+
+.single_grid_w34 {
+  background: url(../images/communities/adm.png) no-repeat center;
   background-size: cover;
 }
 
