@@ -41,6 +41,179 @@ ul {
     list-style-type: none;
 }
 
+/* this is for alumni page */
+.classes-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.classes .classes-img {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.classes .classes-img.classes-img-single {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+.classes .classes-img .price {
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 80px;
+    height: 80px;
+    font-weight: 400;
+    color: #fff;
+    background: #e2af08;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.desc h3 a{
+    color: #934590;
+}
+
+.desc h3 :hover{
+    color: rgb(33, 7, 75);
+    text-decoration-style: dashed;
+}
+
+.btn-learn p a :hover{
+    color:#934590;
+}
+
+.classes .classes-img .price span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.classes-img-single {
+    width: 100% !important;
+    height: 400px !important;
+
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 80px;
+    height: 80px;
+    font-weight: 400;
+    color: #fff;
+    background: #e2af08;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.price span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.price small {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.colorlib-classes {
+    padding: 0 0 8em 0;
+    clear: both;
+}
+
+.colorlib-heading {
+    margin-bottom: 3em;
+}
+
+.colorlib-heading h2 {
+    color: black;
+}
+
+.colorlib-heading h5 {
+    font-size: 18px;
+    color: black;
+}
+
+.colorlib-heading-2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.colorlib-heading {
+    margin-bottom: 5em;
+}
+
+.colorlib-heading h2 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .colorlib-heading h2 {
+        font-size: 30px;
+    }
+
+}
+
+/* Alumni main body ends here */
+
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+    cursor: pointer;
+}
+
+/*-- bottom-to-top --*/
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    right: 3%;
+    overflow: hidden;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/move-top.png) no-repeat 0px 0px;
+}
+
+#toTopHover {
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/*-- //bottom-to-top --*/
+
 body a:hover {
     text-decoration: none;
 }
@@ -831,6 +1004,78 @@ h5.cont-form {
 /* //team */
 
 /* testimonials */
+
+/* //Projects */
+.project-trend-area {
+    background: rgb(250, 250, 250);
+    padding-bottom: 20px;
+  }
+
+  .project-trend-area h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .project-trend-area p {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  #projectshead {
+      text-align: center;
+      padding-bottom: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 10px;
+  }
+
+.thumb {
+    position: relative;
+  }
+
+  .thumb div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.849);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .thumb img {
+    display: block;
+    width: 100%;
+  }
+
+  .thumb div span {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .thumb div p {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-weight: 100;
+  }
+
+  .thumb:hover div {
+    opacity: 1;
+    cursor: pointer;
+  }
 
 .testi-text p {
     color: #777;
