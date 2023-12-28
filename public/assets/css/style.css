@@ -481,7 +481,7 @@ span.sub-title {
   padding: 0 10px 5px 0;
 }
 .single_grid_text {
-    padding: 6vw 0;
+    padding: 4vw 0;
 }
 
 .single_grid_w3 {
@@ -492,24 +492,52 @@ span.sub-title {
 }
 
 .single_grid_w31 {
-    background: url(../images/communities/devcadoekiti.png) no-repeat center;
-    background-size: cover;
+    background: url(../images/communities/mlsa.png) no-repeat center;
+    background-size: 400px;
 }
+@media (max-width: 767px) {
+    .single_grid_w31 {
+        background: url(../images/communities/mlsa.png) no-repeat center;
+        background-size: 250px;
+    }
+}
+
 
 .single_grid_w32 {
-    background: url(../images/communities/aekiti.png) no-repeat center;
-    background-size: cover;
+    background: url(../images/communities/dsn\ eksu\ logo.png) no-repeat center;
+    background-size: 500px;
 }
+@media (max-width: 767px) {
+    .single_grid_w32 {
+        background: url(../images/communities/dsn\ eksu\ logo.png) no-repeat center;
+        background-size: 250px;
+    }
+}
+
 
 .single_grid_w33 {
-  background: url(../images/communities/decad.png) no-repeat center;
-  background-size: cover;
+  background: url(../images/communities/cowrywise.PNG) no-repeat center;
+  background-size: 500px;
+}
+@media (max-width: 767px) {
+    .single_grid_w33 {
+        background: url(../images/communities/cowrywise.PNG) no-repeat center;
+        background-size: 230px;
+    }
 }
 
+
 .single_grid_w34 {
-  background: url(../images/communities/adm.png) no-repeat center;
-  background-size: cover;
+  background: url(../images/communities/kinplusBlue.png) no-repeat center;
+  background-size: 500px;
 }
+@media (max-width: 767px) {
+    .single_grid_w34 {
+        background: url(../images/communities/kinplusBlue.png) no-repeat center;
+        background-size: 250px;
+    }
+}
+
 
 span.wthree-line {
     display: block;
@@ -1316,7 +1344,7 @@ h3.w3f_title {
         padding: 3em 0;
     }
     .row.sec-space {
-        margin: 0;
+        margin-bottom: 40px;
     }
     h4.w3pvt-title {
         font-size: 1.8em;
@@ -1545,6 +1573,12 @@ h3.w3f_title {
         min-height: 385px;
     }
 }
+@media (max-width: 767px) {
+    .row{
+        margin-bottom: 40px;
+    }   
+}
+
 
 @media screen and (max-width: 414px) {
     .row.sub-w3l.my-3 {
