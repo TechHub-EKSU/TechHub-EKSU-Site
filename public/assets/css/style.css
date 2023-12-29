@@ -1147,6 +1147,10 @@ h6.main-title-w3pvt {
 
 /* footer */
 
+/* .twitter-logo {
+    fill: white; 
+} */
+
 .footer:before {
     background: rgba(0, 0, 0, 0.58);
     position: absolute;
@@ -1158,7 +1162,7 @@ h6.main-title-w3pvt {
 }
 
 .footer {
-    background: url(../images/footer.png) no-repeat center;
+    background: url(../images/footer_img.jpg) no-repeat center;
     background-size: cover;
     position: relative;
 }
