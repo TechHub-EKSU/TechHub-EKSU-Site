@@ -13,6 +13,7 @@ body a,
     -ms-transition: 0.5s all;
     text-decoration: none;
     outline: none;
+   
 }
 
 h1,
@@ -538,6 +539,17 @@ span.sub-title {
         background-size: 250px;
     }
 }
+.single_grid_w35 {
+    background: url(../images/communities/EKSU-Creative-Community.png) no-repeat center;
+    background-size: 700px;
+  }
+  @media (max-width: 767px) {
+      .single_grid_w35 {
+          background: url(../images/communities/EKSU-Creative-Community.png) no-repeat center;
+          background-size: 400px;
+      }
+  }
+  
 
 
 span.wthree-line {
@@ -573,26 +585,23 @@ span.wthree-line {
 /*-- services --*/
 
 .wthree_sgrid {
-    text-align: center;
-    border-right: 1px solid #eee;
+    text-align: left;
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
 }
 
-.wthree_sgrid:nth-child(3),
-.wthree_sgrid:nth-child(6) {
-    border-right: none;
-}
 
-.wthree_sgrid:nth-child(4),
-.wthree_sgrid:nth-child(5),
-.wthree_sgrid:nth-child(6) {
-    border-top: 1px solid #eee;
-}
 
 .wthree_sgrid h4 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #000000;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.5em;
+    text-align: left;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -612,9 +621,15 @@ span.wthree-line {
     background: #2954a2;
 }
 
-.wthree_sgrid span {
+.wthree_sgrid img {
     font-size: 4em;
-    color: #333;
+    margin-bottom: 74px;
+    
+}
+.wthree_sgrid p {
+    font-size: 14px;
+    color: #1B1C1E80;
+    
 }
 
 /* //services */
@@ -622,7 +637,7 @@ span.wthree-line {
 /* slide banner */
 
 .slide-banner {
-    background: url(../images/inner-banner.png) center no-repeat;
+    background: url('../images/inner-banner.png') center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1328,6 +1343,7 @@ h3.w3f_title {
     .wthree_sgrid span {
         font-size: 3em;
     }
+
     .slide-banner h5 {
         font-size: 2.6em;
     }
@@ -1349,7 +1365,7 @@ h3.w3f_title {
         padding: 3em 0;
     }
     .row.sec-space {
-        margin-bottom: ;
+        margin-bottom: 0px;
     }
     h4.w3pvt-title {
         font-size: 1.8em;
@@ -1445,6 +1461,7 @@ h3.w3f_title {
     }
     .wthree_sgrid {
         border-bottom: 1px solid #eee;
+        
     }
     .wthree_sgrid:nth-child(odd) {
         border-right: none;
