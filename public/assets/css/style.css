@@ -982,14 +982,40 @@ h5.cont-form {
     font-size: 1.2em;
     color: #000;
 }
+.team-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.social-iconsv2 div{
+    margin: auto;
+}
+/* Style for the anchor tag within the list item */
+.social-iconsv2  a.team-link {
+    /* Add your styles here */
+    /* For example: */
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background:#934590;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
 
 .team_wthree p {
     text-transform: capitalize;
 }
 
-.team-grids:nth-child(even) {
-    margin-top: 4em !important;
-}
+
 
 .team_wthree ul.social-iconsv2 li {
     display: inline-block;
@@ -1016,33 +1042,12 @@ h5.cont-form {
     -ms-transition: all 0.5s ease-in-out;
 }
 
-.team_wthree ul.social-iconsv2 li:first-child {
-    background: #25D366;
-    color: #fff;
-}
-
-.team_wthree ul.social-iconsv2 li:last-child {
-    background: #287bbc;
-    color: #000;
-}
-
-.team_wthree ul.social-iconsv2 li:nth-child(3) {
-    background: #3b5998;
-    color: #000;
-}
-
-.team_wthree ul.social-iconsv2 li a span.fa:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-.team_wthree ul.social-iconsv2 li:nth-child(2) {
-    background: #1da1f2;
-    color: #000;
-}
-
-.team_wthree ul.social-iconsv2 li a:hover {
-    color: #fff;
+.team-effect{
+    border: 2px solid #ccc;
+    border-radius: 10%;
+    overflow: hidden; /* To round the corners of the image */
+    width: 250px; /* Adjust the width */
+    height: 250px; 
 }
 
 /* //team */
@@ -1567,9 +1572,7 @@ h3.w3f_title {
     h5.cont-form {
         font-size: 1.5em;
     }
-    .team-grids:nth-child(even) {
-        margin-top: 2em !important;
-    }
+    
     .carousel-indicators {
         bottom: 0;
     }
