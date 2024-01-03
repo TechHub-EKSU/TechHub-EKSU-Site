@@ -981,6 +981,10 @@ h5.cont-form {
 /* //contact */
 
 /* team */
+.team-grids{
+align-items: center;
+justify-content: center;
+}
 
 .team_wthree h4 {
     font-size: 1.2em;
@@ -1170,6 +1174,26 @@ h5.cont-form {
 
 /* //gallery */
 
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    background-color: #934590;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+#currentPage {
+    font-weight: bold;
+}
+
 .img-grid {
     padding: 1em;
     background: #eee;
@@ -1293,6 +1317,9 @@ h4.footer-title {
 .list-w3pvtits li a {
     color: #fff;
     font-size: 1em;
+}
+.list-w3pvtits-contact{
+    text-align: left;
 }
 
 h3.w3f_title {
