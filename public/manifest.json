@@ -1,0 +1,23 @@
+{
+  "name":"TechHub EKSU",
+  "short_name":"TechHub",
+  "theme_color":"#934590",
+  "background_color":"#ffffff",
+  "display":"standalone",
+  "orientation":"portrait",
+  "lang": "en-US",
+  "description": "TechHub EKSU is an innovative community for startups, communities, and creative minds to connect, collaborate and build",
+  "icons":[
+    {
+      "src":"/assets/favicon/android-chrome-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"/assets/favicon/android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
