@@ -1165,6 +1165,25 @@ h5.cont-form {
 /* //testimonials */
 
 /* //gallery */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    background-color: #934590;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#currentPage {
+    font-weight: bold;
+}
 
 .img-grid {
     padding: 1em;
