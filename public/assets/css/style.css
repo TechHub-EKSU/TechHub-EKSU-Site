@@ -16,6 +16,17 @@ body a,
    
 }
 
+.ted{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+.dark{
+    margin-top: -100px;
+    width: 100%;
+    background-color: black;
+    padding: 2%;
+}
 h1,
 h2,
 h3,
@@ -347,7 +358,7 @@ a.navbar-brand img {
 
 .cpy-right {
     padding: 1vw;
-    background: #000;
+    background: #192437;
 }
 
 .cpy-right p {
@@ -386,6 +397,7 @@ a.navbar-brand img {
     top: 0;
     left: 0;
     z-index: -1;
+
 }
 
 .bg-theme {
@@ -420,7 +432,7 @@ h3.home-banner-w3 {
     color: #fff;
     font-size: 3.8em;
     letter-spacing: 1px;
-    line-height: 1.4;
+    line-height: 1.2;
     word-spacing: 10px;
     text-transform: uppercase;
     width: 70%;
@@ -433,7 +445,7 @@ h3.home-banner-w3 {
 .inner-banner-w3ls {
     background: url(../images/inner-banner.png) no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 470px;
     position: relative;
     z-index: 0;
 }
@@ -1229,19 +1241,26 @@ h6.main-title-w3pvt {
 } */
 
 .footer:before {
-    background: rgba(0, 0, 0, 0.58);
-    position: absolute;
-    width: 100%;
-    height: 100%;
     content: '';
-    top: 0;
+    position: absolute;
+    top: -50px;
     left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/bg-0002.png');
+    border-bottom-left-radius: 10% 20px;
+    border-bottom-right-radius:  10% 20px;
+    
 }
 
 .footer {
-    background: url(../images/footer_img.jpg) no-repeat center;
+    padding-top: 50px;
+    background-color: #192437; /* Dark blue color similar to the image */
     background-size: cover;
     position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
 }
 
 hr {

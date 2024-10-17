@@ -1,0 +1,260 @@
+/* Reset some default browser styles */
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.banner {
+    /* Adjust the background image and opacity as needed */
+    background:url(../images/bg-002.png), url(../images/gallery/Alluvium/4.jpeg) no-repeat;
+    background-size: 100px 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+  }
+
+
+
+.blog-posts {
+    max-width: 800px;   
+}
+
+.post {
+    margin-bottom: 30px;
+}
+.tt{
+    padding-top: 10%;
+}
+
+
+.my-btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: bold;
+
+    color: #F7AA30;
+    border: 1px solid white;
+}
+.feature{
+    font-size: 25px;
+    color: #F7AA30;
+}
+
+.description{
+    color: white;
+}
+.blog-container {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 120px;
+    
+}
+
+.tx{
+    padding-bottom: 30px;
+}
+
+.blog-card {
+    overflow: hidden;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.blog-container hr{
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+
+h2{
+    font-weight: bold;
+    color: #934590;
+    text-align: center;
+    justify-content: center;
+    display: block;
+
+}
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+.text {
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-weight: bold;
+    display: block;
+}
+
+.text hr{
+    justify-content: center;
+    text-align: center;
+}
+
+.card-content {
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color: #934590;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.post-date{
+    font-size: 14px;
+}
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #934590;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #934590;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 15px 25px;
+    color: #934590;
+    border:  1px solid #934590;
+    text-decoration: none;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #2980b9;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cta-content {
+  width: 55%;
+ padding: 145px;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.cta-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #934590;
+    margin-bottom: 20px;
+    text-align: left;  
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    text-align: left;
+}
+
+/* hr{
+    width: 60px;
+    float: inline-start;
+} */
+
+.cta-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #934590;
+}
+
+.cta-button {
+    
+    padding: 15px 30px;
+    color: #934590;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #934590;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    color: white;
+}
+.cta-image {
+    position: relative;
+    width: 50%;
+    padding: 5px;
+
+}
+
+.cta-image img {
+    max-width:730px;
+    
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cta-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta-image img {
+        max-width: 100%;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
